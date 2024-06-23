@@ -1,0 +1,29 @@
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 50px;
+	background-color: olive;
+	color: white;
+}
+form{
+	font-size: 24px;
+	color: olive;
+}
+input{
+	font-size: 24px;
+	color: dark;
+}
+.box{
+	width: 25px;
+	height: 25px;
+}
+.btn{
+	padding: 5px;
+	font-size: 30px;
+	width: 7%;
+	background-color: olive;
+}
+.up{
+	vertical-align: 60px;
+}

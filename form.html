@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My form</title>
+	<link rel="stylesheet" type="text/css" href="css/myform.css">
+</head>
+<body>
+<p>Заповніть форму для комунікації</p>
+<form name="form">
+	<label for="text">Введіть ваше ім'я</label>
+	<input type="text" name="name" size="20" maxlength="30"><br>
+	<label for="text">Введіть ваше прізвище</label>
+	<input type="text" name="surname" size="30"><br>
+	<label for="text">Введіть ваш вік</label>
+	<input type="text" name="age" size="30"><br>
+	<label for="text"><span class="up">Введіть ваше повідомлення:</span></label>
+	<textarea cols="100" rows="8" wrap="physical"></textarea>
+	<br>
+	<label for="robot">Ти робот?</label>
+	<input type="radio" name="robot" class="box">Так
+	<input type="radio" name="robot" class="box">Ні<br>
+	<button type="submit" class="btn">Submit</button>
+
+</form>
+</body>
+</html>

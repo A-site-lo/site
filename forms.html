@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form">
+	<label for="text">Введіть вше ім'я</label>
+	<input type="text" name="name" value="Enter your name" size="20" maxlength="30"><br>
+	<label for="text">Введіть вше прізвище</label>
+	<input type="text" name="surname" size="30">
+	<input type="text" name="text1" value="Не фктивне поле" disabled>
+	<input type="text" name="text2" value="Тільки для читання" readonly><br>
+	<label for="password">Введіть ваш пароль</label>
+	<input type="password" name="password" maxlength="30" size="20"><br>
+	<label for="robot">Ти робот?</label>
+	<input type="radio" name="robot" class="box">Так
+	<input type="radio" name="robot" class="box">Ні<br>
+	Яку мову бажаєте вивчити?<br>
+	<input type="checkbox" name="en">Англійська
+	<input type="checkbox" name="fr">Французька
+	<input type="checkbox" name="kr">Корейська
+	<input type="checkbox" name="sp">Іспанська
+	<br>
+	<input type="submit" name="submit" value="submit">
+	<input type="reset" name="reset" value="Reset">
+	<br>
+	<input type="submit" name="submit" value="Submit" class="btn">
+	<input type="reset" name="reset" value="Reset" class="btn">
+	<button type="submit" class="btn">Submit</button>
+	<input type="file" name="file"><br>
+	<textarea cols="20" rows="3" wrap="off"></textarea>
+	<textarea cols="30" rows="5" wrap="virtual"></textarea>
+	<textarea cols="50" rows="7" wrap="physical"></textarea>
+	<br>
+	<select name="ln1">
+		<option>Англійсика</option>
+		<option>Французька</option>
+		<option selected>Корейська</option>
+		<option>Іспанська</option>
+	</select>
+	<select name="ln2" size="2">
+		<option>Англійсика</option>
+		<option selected>Французька</option>
+		<option>Корейська</option>
+		<option>Іспанська</option>
+	</select>
+	<select name="ln3" multiple>
+		<option>Англійсика</option>
+		<option>Французька</option>
+		<option>Корейська</option>
+		<option>Іспанська</option>
+	</select>
+</form>
+</body>
+</html>
